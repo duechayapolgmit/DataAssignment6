@@ -74,7 +74,7 @@ app.get('/api/books', (req, res) => {
 // POST request, returning the JSON
 app.post('/api/books', (req, res)=>{
     console.log(req.body);
-    res.send("Data Recieved")
+    res.send("Data Received")
 })
 
 /* FORM HANDLING */
